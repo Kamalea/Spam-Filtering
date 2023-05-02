@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            max-width:1100px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .flex{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        img {
+         width: 450px;
+        }
+        .nav-link-header{
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+        }
+        .nav-link, .nav-cta, .nav-home{
+            text-decoration: none;
+        }
+        .nav-cta{
+            background-color: #243ab1;
+            padding: 6px 12px;
+            border-radius: 6px;
+            color: #fff;
+        }
+        .nav-home{
+         color: #6a6a6a;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="flex">
+                <a href="home.html" class="nav-home"><h4>Smartbridge</h4></a>
+                <div class="nav-link-header">
+                    <a class="nav-link" href="home.html">Home</a>
+                    <a class="nav-link" href="">About</a>
+                </div>
+                <div class="cta">
+                    <a href="spam.html" title="" class="nav-cta">Spam</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<div class="container">
+    <div class="flex">
+        <div>
+            <h1><b>SMS</b> <span>SPAM</span> Detection Using <b>NLP</b></h1>
+        </div>
+        <div>
+            <img src="https://img.freepik.com/free-vector/businessmen-get-advertising-phishing-spreading-malware-irrelevant-unsolicited-spam-message-spam-unsolicited-messages-malware-spreading-concept_335657-1837.jpg?w=900&t=st=1683010221~exp=1683010821~hmac=2c7b351fb8d82efd70d316148051c1fcc41f73d19fce3d9b348d6cd05aa1c28f" title="" alt="">
+        </div>
+    </div>
+</div>
+</body>
+</html>
